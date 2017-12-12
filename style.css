@@ -1,0 +1,44 @@
+table{
+	
+	border-collapse: collapse;
+	text-align:center;
+	
+}
+
+
+.pow_table{
+	border: 2px solid black;
+}
+
+.random_table{
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.zeebra tr:nth-child(2n+1){
+     background: #c0c0c0; 
+}
+
+.even_zeebra tr:nth-child(2n){
+    background: #c0c0c0;
+}
+
+#color_hat th{
+	
+	background: #c0c0c0;
+	
+}
+
+th, td {
+    
+    border: 1px solid black;
+	padding-left:30px;
+	padding-right:30px;
+	
+}
+
+.fat_bottom_line th{
+	
+	border-bottom: 3px solid black;
+	
+}	
